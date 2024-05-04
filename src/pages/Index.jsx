@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, VStack, Textarea, Button, Text, useToast } from "@chakra-ui/react";
 
+
 const Index = () => {
   const [text, setText] = useState("");
   const [summary, setSummary] = useState("");
